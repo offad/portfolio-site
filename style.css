@@ -40,11 +40,6 @@ a{
 
 /* Custom Class Styles */
 
-.portrait{
-    margin:auto;
-    text-align:center;
-}
-
 .page-wrapper{
     display: flex;
     max-width: 1600px;
@@ -59,8 +54,6 @@ a{
     width: 320px;
     height: 320px;
     border-radius: 8px;
-    display:block;
-    margin:auto;
 }
 
 .side2{

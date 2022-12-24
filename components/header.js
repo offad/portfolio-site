@@ -7,7 +7,7 @@ class Header extends HTMLElement {
         this.innerHTML = `
             <header class="header">
 
-                <h1>Oluwanifemi Fadare</h2>
+                <h1>Oluwanifemi Fadare</h1>
 
                 <!-- Add font awesome icons -->
                 

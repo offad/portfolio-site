@@ -1,6 +1,9 @@
-.card1{
+.card {
     background-color: #D1D9C1;
     padding: 8px;
     margin-bottom: 12px;
     border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    border-color: #D1D9C1;
 }

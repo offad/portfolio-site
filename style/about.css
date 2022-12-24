@@ -14,6 +14,12 @@
     float: right;
 }
 
+.about_pic {    
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+
 @media screen and (max-width:550px) {
     .about_pic {
         float: none;
@@ -35,10 +41,4 @@
     .about_tagline {
         max-width: 500px;
     }
-}
-
-.about_pic {    
-    width:200px;
-    height:200px;
-    border-radius: 50%;
 }

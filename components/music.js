@@ -5,7 +5,7 @@ const user = "offad"; // <---- Your username goes here
 const key = "30e1c04cb4b327312b02674b79cd7578"; //<-- Your API key goes here
 
 // The URL of the request to API Service
-var url = `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${user}&api_key=${key}&format=json`;
+var url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${user}&api_key=${key}&format=json`;
 
 // Enable Shortening
 const short_titles = false;

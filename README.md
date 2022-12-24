@@ -1,7 +1,5 @@
 # portfolio-site
 
-This template should help get you started developing with Vue 3 in Vite.
-
 ## Info
 
 Basic Portfolio Website hosted through GitHub Pages at <https://offad.xyz>

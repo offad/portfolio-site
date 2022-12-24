@@ -5,7 +5,6 @@ function get_spotify() {
         url: '/last.fm.php',
         data: { request: 'true' },
         success: function(reply) {
-            console.log(reply);
             $('.now-playing').html("<p>" + reply + "</p>");
         }
     });

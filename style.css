@@ -34,7 +34,8 @@ p{
 
 a{
     font-size: 16px;
-    /*color: #212329;*/
+    text-decoration: none;
+    color: #570861;
 }
 
 /* Custom Class Styles */

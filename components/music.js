@@ -60,14 +60,14 @@ function handleData(data) {
         let time = "";
 
         // String formatting based on time
-        if (hours > 0) {
+        if (hours > 0)
             if (hours > 24)
                 time = "over a day ago";
             else
-                time = hours + " hours and " . minutes + " minutes ago";
-        } else
+                time = hours + " hours and " + minutes + " minutes ago";
+        else
             time = minutes + " minutes ago";
-
+            
         output = "I last listened to " + last['name'] + ' by ' + last['artist']['#text'] + ` ${time}`;
 
     }

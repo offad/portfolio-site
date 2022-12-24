@@ -1,7 +1,7 @@
 //Borrowed from https://stackoverflow.com/q/21765592
 function get_spotify() {
     $.ajax({
-        type: 'POST',
+        type: 'GET',
         url: '/last.fm.php',
         data: { request: 'true' },
         success: function(reply) {

@@ -1,7 +1,8 @@
 /* About Section */
 
 .about_hello{
-    font-weight: 700
+    font-weight: 700;
+    margin-bottom: 8px;
 }
 
 .about_wrap{
@@ -11,10 +12,6 @@
 
 .about_wrap .about_pic {
     float: right;
-}
-    
-.about_wrap .about_tagline {
-    line-height: 40px;
 }
 
 @media screen and (max-width:550px) {

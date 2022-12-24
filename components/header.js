@@ -9,8 +9,6 @@ class Header extends HTMLElement {
 
                 <h1>Oluwanifemi Fadare</h2>
 
-                <a href="#">Resume</a>
-
                 <!-- Add font awesome icons -->
                 <a href="mailto:of.fadare@gmail.com" class="fa fa-envelope"></a>
                 <a href="https://github.com/offad" class="fa fa-github"></a>

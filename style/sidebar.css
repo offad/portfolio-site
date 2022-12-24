@@ -1,11 +1,11 @@
 /* The side navigation menu */
 .sidebar {
-  margin: 0;
   padding: 0;
   width: 200px;
   height: 100%;
   overflow: auto;
-  margin: 32px;
+  margin-top: 7.2rem;
+  margin-right: 32px;
 }
   
 /* Sidebar links */

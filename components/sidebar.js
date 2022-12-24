@@ -17,6 +17,9 @@ class Sidebar extends HTMLElement {
                     <li>
                         <a href="html/writing.html">Writing</a>
                     </li>
+                    <li>
+                        <a href="#">Résumé</a>
+                    </li>
                 </ul>
             </div>
 

@@ -1,6 +1,5 @@
 //Borrowed from https://stackoverflow.com/q/21765592
 function get_spotify() {
-    //header("Access-Control-Allow-Origin: *");
     $.ajax({
         type: 'POST',
         url: '/last.fm.php',

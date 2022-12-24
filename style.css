@@ -42,9 +42,9 @@ a{
 .page-wrapper{
     background-color: #fff;
     padding: 0px 100px;
+    margin: 120px 0px;
     display: flex;
     justify-content: center;
-    align-items:center;
     text-align: center;
     height: 100vh;
     max-width: 1440px;

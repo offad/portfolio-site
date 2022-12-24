@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-<script src="now-playing.js" type="text/javascript"></script>
-
 <head>
 
     <meta charset="UTF-8">
@@ -11,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Femi Fadare</title>
+    <title>Oluwanifemi Fadare</title>
 
     <!-- Chivo Mono Font Imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,36 +16,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap" rel="stylesheet">
 
     <!-- Stylesheet Import -->
-    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="style.css">
     
     <!-- Add favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src="now-playing.js" type="text/javascript"></script>
+
+    <script src="components/sidebar.js" type="text/javascript" defer></script>
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
 
 </head>
 
 <body>
 
-    <!-- Divisor to split the page into two columns -->
+    <!-- Wrapper for all UI elements -->
     <div class="page-wrapper">
 
-        <!-- First Column containing condensed career information -->
-        <div class="side1">
+        <!-- Aside for site navigation  -->
+        <sidebar-component></sidebar-component>
+       
+        <!-- Second Column containing page information -->
+        <main class="main">
 
+            <header-component></header-component>
+
+            <!-- About Me -->
             <div class = "wrapper">
 
-                <div class = "portrait" >
-                    <h1 class>Software Developer</h1>
-                    <img class="profile-pic" src="profile-pic.jpg">
-                    <h2>Oluwanifemi Fadare</h2>
+                <h1 class="about_hello">Hello!</h2>
+
+                <div class="about_wrap">
+                    <img class="about_pic" src="assets/profile-pic.jpg" alt="Profile Icon">
+
+                    <p class="about_tagline">I'm
+                        <span class="name">Femi</span>, 
+                        a third-year CS and Philosophy student 
+                        at the University of St. Andrews. 
+                        I'm a full-stack Android app developer in Kotlin and Java, 
+                        and I make Roblox games with a focus on back-end in Lua. 
+                    </h3>
                 </div>
 
-                <p>Connect:
-                    <a href ="https://www.linkedin.com/in/offad/">LinkedIn</a> 
-                    <a href ="https://www.instagram.com/of.fad/">Instagram</a> 
-                    <a href ="mailto:of.fadare@gmail.com">Email</a> 
-                </p>
+            </div>
+            
+            <!-- Show what I am currently listening to on Spotify -->
+
+            <div class = "wrapper">
+                <h3>What have I been listening to?</h3>
+                <div class="now-playing"></div>
+                <a href ="https://open.spotify.com/user/9jlfvejlr1us1ezja4pnaav4b?si=31ee4ba48d77466a">Spotify Profile</a> 
+
             </div>
 
+            <!-- 
             <div class = "wrapper">
                 <h1>Work History</h1>
                 <ul class = "work-container">
@@ -79,22 +105,7 @@
                 </u1>
             </div>
 
-        </div>
-
-        <!-- Second Column containing personal and project information -->
-        <div class="side2">
-
-            <div class = "wrapper">
-                <h1>About Me</h1>
-                
-                <p> I'm a third-year CS and Philosophy student at the University of St. Andrews, 
-                    and I attended Atlantic Hall and The Rochester Grammar School. 
-
-                    I'm a full-stack Android app developer in Kotlin and Java, 
-                    and I make Roblox games with a focus on back-end in Lua. 
-                </p>
-
-            </div>
+            <-- Show current projects
 
             <div class = "wrapper">
                 <h1>Projects</h1>
@@ -118,19 +129,12 @@
                     </li>
                 </ul>
             </div>
-
-            <!-- Show what I am currently listening to on Spotify -->
-
-            <div class = "wrapper">
-                <h1>Music</h1>
-                <a href ="https://open.spotify.com/user/9jlfvejlr1us1ezja4pnaav4b?si=31ee4ba48d77466a">Spotify Profile</a> 
-            
-                <div class="now-playing"></div>
-
-            </div>
+            -->
+        
+            <footer-component></footer-component>
 
         </div>
-
+ 
     </div>
 
 </body>

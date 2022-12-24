@@ -1,0 +1,47 @@
+/* About Section */
+
+.about_hello{
+    font-weight: 700
+}
+
+.about_wrap{
+    max-width: 1000px;
+    position: relative;
+}
+
+.about_wrap .about_pic {
+    float: right;
+}
+    
+.about_wrap .about_tagline {
+    line-height: 40px;
+}
+
+@media screen and (max-width:550px) {
+    .about_pic {
+        float: none;
+        display: none;
+    }
+}
+
+.about_tagline {
+    font-weight: 300;
+    max-width: 700px;
+    position: relative;
+}
+
+.about_tagline .name {
+    font-weight: 700
+}
+
+@media screen and (max-width:900px) {
+    .about_tagline {
+        max-width: 500px;
+    }
+}
+
+.about_pic {    
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}

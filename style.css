@@ -1,73 +1,63 @@
+@import "style/header.css";
+@import "style/sidebar.css";
+@import "style/about.css";
+
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: 'Chivo Mono', monospace;
-    letter-spacing: .6px;
+    text-align: left;
+    color: #444452;
+    line-height: 1.5;
 }
 
 
 @media(max-width:900px){
-    .page-wrapper, .side1, .side2{
+    .page-wrapper, .main, .sidebar{
         width: 90%;
     }    
 }
 
 /* Tag Styles */
 
-h1{
-    margin-bottom: 8px;
-    font-size: 24px;
-}
-
-h2{
-    font-size: 18px;
-}
-
 li{
     list-style: none;
 }
 
+h1{
+    font-size: 32px;
+}
+
 p{
-    line-height: 1.32em;
     font-size: 16px;
 }
 
 a{
     font-size: 14px;
-    color: #212329;
+    /*color: #212329;*/
 }
 
 /* Custom Class Styles */
 
 .page-wrapper{
+    background-color: #fff;
+    padding: 0px 100px;
     display: flex;
-    max-width: 1600px;
     justify-content: center;
-    justify-content: space-evenly;
-    height: 120vh;
-    padding: 40px;
-    flex-wrap: wrap;
+    align-items:center;
+    text-align: center;
+    height: 100vh;
+    max-width: 1440px;
 }
 
-.profile-pic{
-    width: 320px;
-    height: 320px;
-    border-radius: 8px;
-}
-
-.side2{
-    width: 40%;
+.main{
+    width: 60%;
 }
 
 .wrapper{
     /* border: 2px solid red; -- Border Indicator */
     margin-bottom: 16px;
+    max-width: 800px;
+    position: relative;
 }
 
-.card1{
-    background-color: #D1D9C1;
-    padding: 8px;
-    margin-bottom: 12px;
-    border-radius: 8px;
-}

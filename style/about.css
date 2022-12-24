@@ -1,11 +1,11 @@
 /* About Section */
 
-.about_hello{
+.about_hello {
     font-weight: 700;
     margin-bottom: 8px;
 }
 
-.about_wrap{
+.about_wrap {
     max-width: 1000px;
     position: relative;
 }

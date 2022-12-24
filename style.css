@@ -1,7 +1,7 @@
 @import "style/header.css";
 @import "style/sidebar.css";
 @import "style/about.css";
-@import "style/card.css";
+@import "style/projects.css";
 
 *{
     padding: 0;

@@ -41,13 +41,11 @@ a{
 
 .page-wrapper{
     background-color: #fff;
-    padding: 0px 120px;
-    margin: 120px 0px;
     display: flex;
+    width: 90%;
     justify-content: center;
+    margin: 120px auto;
     text-align: center;
-    max-width: 1440px;
-    vertical-align: middle;
 }
 
 @media screen and (max-width:550px) {
@@ -58,7 +56,7 @@ a{
 }
 
 .main{
-    width: 60%;
+    width: 50%;
 }
 
 .wrapper{

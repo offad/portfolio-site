@@ -12,13 +12,16 @@ class Sidebar extends HTMLElement {
                         <a class="active" href="/">About</a>
                     </li>
                     <li>
-                        <a href="html/projects.html">Projects</a>
+                        <a href="pages/projects.html">Projects</a>
                     </li>
                     <li>
-                        <a href="html/writing.html">Writing</a>
+                        <a href="pages/writing.html">Writing</a>
                     </li>
                     <li>
                         <a href="#">Résumé</a>
+                    </li>
+                    <li>
+                        <a href="#">Colophone</a>
                     </li>
                 </ul>
             </div>

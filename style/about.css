@@ -23,7 +23,7 @@
 @media screen and (max-width:550px) {
     .about_pic {
         float: none;
-        display: none;
+        /* display: none; */
     }
 }
 

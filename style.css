@@ -61,7 +61,7 @@ a{
 
 .wrapper{
     /* border: 2px solid red; -- Border Indicator */
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     max-width: 800px;
     position: relative;
 }

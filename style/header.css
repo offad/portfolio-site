@@ -1,10 +1,10 @@
 .header {
-    margin-bottom: 4rem;
     display: inline-block; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 800px;
+    height: 7.2rem;
 }
 
 .links {

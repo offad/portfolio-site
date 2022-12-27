@@ -17,7 +17,7 @@
 
     <!-- Import stylesheets -->
     <link rel="stylesheet" href="../style.css">
-    
+
     <!-- Add favicon -->
     <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
 
@@ -28,6 +28,9 @@
 
     <script src="../components/sidebar.js" type="text/javascript" defer></script>
     <script src="../components/header.js" type="text/javascript" defer></script>
+    
+    <!-- Add the Swiper CSS file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 
 </head>
 
@@ -50,27 +53,68 @@
 
                 <h1>Projects</h1>
 
-                <ul>
+                <div class="project_container">
 
-                    <li class = "card1">
-                        <h3>The Curseage Project</h3>
+                    <div class="project">
+
+                        <div class="swiper">
+
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <img src="../assets/curseage_1.png" alt="Slide 1">
+                                    <p>Slide 1: The Main Curseage Game Thumbnail</p>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="../assets/curseage_2.png" alt="Slide 2">
+                                    <p>Slide 2: The introduction screen of the game</p>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="../assets/curseage_3.png" alt="Slide 3">
+                                    <p>Slide 3: The character type selection screen</p>
+                                </div>
+
+                            </div>
+
+                            <!-- Add pagination dots -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- Add navigation arrows -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                        </div> 
+
                         <p> <a href ="https://www.roblox.com/games/8294567615/Curseage">Curseage</a> 
                             is an open-world fighting game based on the popular manga series 'Jujutsu Kaisen'.</p>
-                    </li>
 
-                    <li class = "card1">
-                        <h3>The Rivalry Project</h3>
+                    </div>
+    
+                    <div class="project">
+
+                        <img src="../assets/rivalry_1.png" alt="The Rivalry project">
+                        
                         <p> <a href ="https://www.roblox.com/games/5211354710/Rivalry">Rivalry!</a>
                             is a fantasy genre fighting game.</p>
-                    </li>
 
-                    <li class = "card1">
-                        <h3>The Stylepad App</h3>
+                    </div>
+
+                    <div class="project">
+
+                        <img src="../assets/unnamed.png" alt="The Stylepad App">
+
                         <p> <a href ="https://play.google.com/store/apps/details?id=com.davidfadare.notes">Stylepad</a> 
                             is Simple Notetaking Android app</p>
-                    </li>
 
-                </ul>
+                    </div>
+
+                </div>
+                      
+                <!-- Add the component file for Swiper -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+                <script src="../components/swiper.js" type="text/javascript" defer></script>
 
             </div>
 

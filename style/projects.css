@@ -1,9 +1,40 @@
-.card1 {
-    background-color: #D1D9C1;
-    padding: 8px;
-    margin-bottom: 12px;
-    border-radius: 8px;
-    border: solid;
-    border-width: 1px;
-    border-color: #D1D9C1;
+.project_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-gap: 20px;
+    margin-top: 16px;
+}
+  
+.project_container div:nth-child(1) {
+    grid-column: span 2;
+}
+
+.project {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.project img {
+    display: block;
+    width: 100%;
+}
+
+.swiper {
+    width: inherit;
+    max-width: inherit;
+}
+  
+.swiper-pagination {
+    /* Style the pagination element */
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+
 }

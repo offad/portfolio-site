@@ -88,6 +88,7 @@ function get_spotify() {
         url: url,
         data: { request: 'true' },
         success: function(reply) {
+            console.log(reply)
             var result = handleData(reply);
             $('.now-playing').html("<p>" + result + "</p>");
         }

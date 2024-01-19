@@ -12,11 +12,10 @@ export const metadata = {
 export default function Guestbook() {
     return (
       <main>
-        <Layout className='pt-0'>
-          
-          <h1 className='mt-12 text-4xl font-medium font-title'>Guestbook</h1>
-          TODO
-
+        <Layout className='pt-0 grid gap-4'>
+          <section className=' grid gap-4'>
+            <h1 className='mt-12 text-4xl font-medium font-title'>Guestbook</h1>
+          </section>
         </Layout>
       </main>
     )

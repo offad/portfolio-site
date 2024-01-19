@@ -91,42 +91,44 @@ export default function Projects() {
         {/* Add the Swiper CSS file */}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"></link>
 
-        <Layout className='pt-0'>
+        <Layout className='pt-0 grid gap-4'>
           
-          <h1 className='mt-12 text-4xl font-medium font-title'>Projects</h1>
+          <section className=' grid gap-4'>
+            <h1 className='mt-12 text-4xl font-medium font-title'>Projects</h1>
 
-          <div className='grid grid-cols-12 gap-8'>
-            <div className='col-span-12'>
-              <FeaturedProject 
-              type='Roblox Game'
-              title='Curseage'
-              summary="An open-world fighting game based on the popular manga series 'Jujutsu Kaisen'."
-              link="https://www.roblox.com/games/8294567615/Curseage"
-              github="https://github.com/LuwabiProductions"
-              img={curseage1}
-              />
+            <div className='grid grid-cols-12 gap-8'>
+              <div className='col-span-12'>
+                <FeaturedProject 
+                type='Roblox Game'
+                title='Curseage'
+                summary="An open-world fighting game based on the popular manga series 'Jujutsu Kaisen'."
+                link="https://www.roblox.com/games/8294567615/Curseage"
+                github="https://github.com/LuwabiProductions"
+                img={curseage1}
+                />
+              </div>
+              <div className='col-span-6'>
+                <Project
+                type='Roblox Game'
+                title='Curseage'
+                summary="A fantasy genre fighting game."
+                link="https://www.roblox.com/games/5211354710/Rivalry-Pre-Alpha"
+                github="https://github.com/LuwabiProductions"
+                img={rivalry1}
+                />
+              </div>
+              <div className='col-span-6'>
+                <Project
+                type='Android App'
+                title='Stylepad'
+                summary="A simple note-taking app."
+                link="https://play.google.com/store/apps/details?id=com.davidfadare.notes&pli=1"
+                github="https://github.com/LuwabiProductions"
+                img={stylepad}
+                />
+              </div>
             </div>
-            <div className='col-span-6'>
-              <Project
-              type='Roblox Game'
-              title='Curseage'
-              summary="A fantasy genre fighting game."
-              link="https://www.roblox.com/games/5211354710/Rivalry-Pre-Alpha"
-              github="https://github.com/LuwabiProductions"
-              img={rivalry1}
-              />
-            </div>
-            <div className='col-span-6'>
-              <Project
-              type='Android App'
-              title='Stylepad'
-              summary="A simple note-taking app."
-              link="https://play.google.com/store/apps/details?id=com.davidfadare.notes&pli=1"
-              github="https://github.com/LuwabiProductions"
-              img={stylepad}
-              />
-            </div>
-          </div>
+          </section>
         </Layout>
       </main>
     )
